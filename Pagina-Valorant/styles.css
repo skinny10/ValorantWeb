@@ -1,0 +1,74 @@
+* {
+  height: 0;
+}
+
+#section-home {
+  background-image: url('images/personaje1.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#header-home {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+#title {
+  font-size: 13em;
+  text-align: center;
+  padding: 120px;
+  color: #d35400;
+  opacity: 0.4;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  margin: 0;
+}
+
+a,
+button {
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 0;
+}
+
+#b-login {
+  background-color: red;
+}
+
+#b-singup {
+  background-color: #740e2b;
+}
+
+
